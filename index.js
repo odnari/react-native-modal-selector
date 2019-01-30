@@ -49,7 +49,7 @@ const propTypes = {
     overlayStyle:                   ViewPropTypes.style,
     cancelText:                     PropTypes.string,
     disabled:                       PropTypes.bool,
-    supportedOrientations:          PropTypes.oneOF(['portrait', 'portrait-upside-down', 'landscape', 'landscape-left', 'landscape-right']),
+    supportedOrientations:          PropTypes.oneOf(['portrait', 'portrait-upside-down', 'landscape', 'landscape-left', 'landscape-right']),
     keyboardShouldPersistTaps:      PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
     backdropPressToClose:           PropTypes.bool,
     openButtonContainerAccessible:  PropTypes.bool,
